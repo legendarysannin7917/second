@@ -54,7 +54,7 @@ function buildVideoList(){
 			videos.forEach(videoXmlNode => {
 				i ++;
 				let model = videos[i-1].getAttribute('name');
-				if(location.href == "https://yelinked-net.netlify.app/evaelfie.html"){
+				if(location.href == "https://yelinked-net.netlify.app/names/evaelfie.html"){
 					if ( model == "evaelfie")
 					{
 						let videodiv = document.createElement("div");
@@ -88,7 +88,7 @@ function buildVideoList(){
 						console.log(model);
 					}
 				}
-				else if(location.href == "https://yelinked-net.netlify.app/littlereislin.html"){
+				else if(location.href == "https://yelinked-net.netlify.app/names/littlereislin.html"){
 					if ( model == "littlereislin")
 					{
 						let videodiv = document.createElement("div");
@@ -122,7 +122,7 @@ function buildVideoList(){
 						console.log(model);
 					}
 				}
-				else if(location.href == "https://yelinked-net.netlify.app/solazola.html"){
+				else if(location.href == "https://yelinked-net.netlify.app/names/solazola.html"){
 					if ( model == "solazola")
 					{
 						let videodiv = document.createElement("div");
